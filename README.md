@@ -24,20 +24,26 @@ Extensão para Google Chrome voltada à análise da produção científica em cu
 
 ## Versão atual
 
-**v3.9.1**
+**v3.9.2**
 
-A versão 3.9.1 inclui, entre outros ajustes:
+A versão 3.9.2 mantém as funcionalidades da v3.9.1 e acrescenta:
 
-- classificação atual MB/B/R/F/NC aplicada somente a publicações de 2022 em diante;
-- gráfico de pontuação atual restrito ao período a partir de 2022;
+- metadados formais de citação por meio do arquivo `CITATION.cff`;
+- integração com o Zenodo para preservação e identificação persistente do software;
+- registro DOI;
+- melhorias na documentação para instalação, citação e distribuição;
+- manutenção da classificação atual MB/B/R/F/NC somente para publicações de 2022 em diante;
+- manutenção do gráfico de pontuação atual restrito ao período a partir de 2022;
 - manutenção do Qualis Referência 2021–2024 para todo o histórico de publicações;
 - melhorias no reconhecimento de periódicos por ISSN e título;
 - correções de exibição, duplicidade e vinculação das classificações aos artigos.
 
+Não houve alteração da lógica principal de classificação da extensão em relação à v3.9.1.
+
 ## Instalação
 
 1. Acesse a [última versão disponível](https://github.com/nepeconunb/capes-lattes-area27/releases/latest).
-2. Em **Assets**, baixe o arquivo `CAPES-Lattes-v3.9.1.zip`.
+2. Em **Assets**, baixe o arquivo `CAPES-Lattes-v3.9.2.zip`.
 3. Descompacte o arquivo ZIP.
 4. No Google Chrome, acesse `chrome://extensions`.
 5. Ative o **Modo do desenvolvedor**.
