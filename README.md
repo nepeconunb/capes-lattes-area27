@@ -137,8 +137,7 @@ Este projeto é distribuído sob a **MIT License**.
 ## Desenvolvimento
 
 Projeto vinculado ao **NEPECON — Universidade de Brasília (UnB)**.
-
-## Profa. Dra. Fátima de Souza Freire.
+- Coordenadora: Profa. Dra. Fátima de Souza Freire.
 
 Departamento de Ciências Contábeis e Atuariais
 
