@@ -2,6 +2,10 @@
 
 [![Latest Release](https://img.shields.io/github/v/release/nepeconunb/capes-lattes-area27?label=vers%C3%A3o&color=blue)](https://github.com/nepeconunb/capes-lattes-area27/releases/latest)
 
+[![DOI](https://zenodo.org/badge/1411772557.svg)](https://doi.org/10.5281/zenodo.23267482)
+
+**DOI do software:** [10.5281/zenodo.23267483](https://doi.org/10.5281/zenodo.23267483)
+
 **[⬇️ Baixar a versão mais recente](https://github.com/nepeconunb/capes-lattes-area27/releases/latest)**
 
 Extensão para Google Chrome voltada à análise da produção científica em currículos da Plataforma Lattes, com foco na **Área 27 da CAPES — Administração Pública e de Empresas, Ciências Contábeis e Turismo**.
@@ -130,6 +134,12 @@ Contribuições, sugestões e correções são bem-vindas.
 
 Veja as orientações em [CONTRIBUTING.md](CONTRIBUTING.md).
 
+## Como citar
+
+Freire, Fátima de Souza. **CAPES-Lattes — Área 27**. Software.  
+NEPECON — Universidade de Brasília (UnB).  
+DOI: [10.5281/zenodo.23267483](https://doi.org/10.5281/zenodo.23267483)
+
 ## Licença
 
 Este projeto é distribuído sob a **MIT License**.
@@ -137,9 +147,6 @@ Este projeto é distribuído sob a **MIT License**.
 ## Desenvolvimento
 
 Projeto vinculado ao **NEPECON — Universidade de Brasília (UnB)**.
-- Coordenadora: Profa. Dra. Fátima de Souza Freire.
-
-Departamento de Ciências Contábeis e Atuariais
 
 E-mail: nepeconunb@gmail.com
 
