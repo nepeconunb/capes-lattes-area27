@@ -1,0 +1,12 @@
+CAPES-Lattes v1.7.1 — CORREÇÃO DO PAINEL NO CABEÇALHO
+
+Correção:
+- o cartão CAPES-Lattes agora é inserido diretamente no cartão superior do pesquisador,
+  usando a área que contém a foto e o ID Lattes;
+- aparece imediatamente como “Analisando o currículo...”;
+- ao concluir, mostra classificados/total e pontuação;
+- botão “Ver gráficos” abre o painel sobre o próprio CV;
+- identificação do nome do pesquisador foi corrigida.
+
+Pontuação:
+MB=8, B=4, R=2, F=1, NC=0.

@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "name": "CAPES-Lattes 2022–2028",
+  "version": "3.9.1",
+  "description": "CAPES-Lattes 3.9.1 — Área 27. O gráfico de pontuação atual mostra apenas 2022 em diante. Inclui uma verificação determinística para Environmental Science and Pollution Research (ISSN 0944-1344, Qualis A2) quando o artigo não entra no parser principal.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "tabs"
+  ],
+  "host_permissions": [
+    "http://buscatextual.cnpq.br/*",
+    "http://lattes.cnpq.br/*",
+    "https://buscatextual.cnpq.br/*",
+    "https://lattes.cnpq.br/*",
+    "https://periodicos-adm.com/*",
+    "https://www.periodicos-adm.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "CAPES-Lattes Área 27 • 3.9.1"
+  },
+  "options_page": "options.html",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://buscatextual.cnpq.br/*",
+        "http://buscatextual.cnpq.br/*",
+        "https://lattes.cnpq.br/*",
+        "http://lattes.cnpq.br/*"
+      ],
+      "js": [
+        "data.js",
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

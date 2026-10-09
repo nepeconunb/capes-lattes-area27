@@ -1,0 +1,11 @@
+CAPES-Lattes v1.7.5 — PAINEL COM ARTIGOS
+
+Novidade:
+- o painel “Ver gráficos” volta a mostrar também a lista dos artigos;
+- a lista respeita o período selecionado;
+- cada artigo mostra ano, referência, periódico, DOI quando disponível,
+  classificação e pontos;
+- os gráficos e a pontuação continuam no mesmo painel, sobre o próprio Lattes.
+
+Pontuação:
+MB=8, B=4, R=2, F=1, NC=0.

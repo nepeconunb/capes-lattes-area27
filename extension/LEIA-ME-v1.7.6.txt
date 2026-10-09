@@ -1,0 +1,24 @@
+CAPES-Lattes v1.7.6 — SOMENTE ARTIGOS EM PERIÓDICOS
+
+Correção principal:
+- o sistema agora lê EXCLUSIVAMENTE a seção:
+  “Artigos completos publicados em periódicos”
+- livros, capítulos de livros, textos em coletâneas e outras produções bibliográficas
+  NÃO entram nos totais, gráficos ou pontuação.
+
+Filtros adicionais de segurança:
+- exclui referências com “In:”
+- exclui “Org.)”
+- exclui “Editora”
+- exclui “1ed.”
+- exclui ISBN e referências explicitamente identificadas como capítulo
+
+O painel continua mostrando:
+- artigos por ano
+- classificação MB/B/R/F/NC
+- pontuação por ano
+- lista dos artigos do período
+- filtro de período
+
+Pontuação:
+MB=8, B=4, R=2, F=1, NC=0.

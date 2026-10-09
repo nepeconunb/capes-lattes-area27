@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CAPES-Lattes — Gráficos</title>
+<link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+<header>
+  <div>
+    <h1>CAPES-Lattes — Painel de Produção</h1>
+    <p>Classificação automática • versão 1.6.0 universal</p>
+  </div>
+  <div class="badge">Universal • sem servidor local</div>
+</header>
+
+<main>
+  <section class="card controls">
+    <div class="section-title">Período de análise</div>
+
+    <div class="grid-controls">
+      <label>Ano inicial
+        <select id="startYear"></select>
+      </label>
+      <label>Ano final
+        <select id="endYear"></select>
+      </label>
+      <button id="applyPeriod">Aplicar período</button>
+      <button id="allPeriod" class="secondary">Todo o período</button>
+    </div>
+
+    <div class="presets">
+      <button data-range="2022-2024">2022–2024</button>
+      <button data-range="2025-2028">2025–2028</button>
+      <button id="last4">Últimos 4 anos</button>
+    </div>
+  </section>
+
+  <section class="summary" id="summary"></section>
+
+  <section class="card">
+    <div class="chart-header">
+      <div>
+        <h2>Artigos por ano</h2>
+        <p>Quantidade de artigos no período selecionado.</p>
+      </div>
+      <button class="exportPng" data-target="chartYear">Exportar PNG</button>
+    </div>
+    <canvas id="chartYear" width="1200" height="440"></canvas>
+  </section>
+
+  <section class="card">
+    <div class="chart-header">
+      <div>
+        <h2>Distribuição por classificação</h2>
+        <p>MB, B, R, F e NC no período selecionado.</p>
+      </div>
+      <button class="exportPng" data-target="chartClass">Exportar PNG</button>
+    </div>
+    <canvas id="chartClass" width="1200" height="440"></canvas>
+  </section>
+
+  <section class="card">
+    <div class="chart-header">
+      <div>
+        <h2>Evolução anual por classificação</h2>
+        <p>Composição anual da produção classificada.</p>
+      </div>
+      <button class="exportPng" data-target="chartStack">Exportar PNG</button>
+    </div>
+    <canvas id="chartStack" width="1200" height="520"></canvas>
+  </section>
+
+  <section class="card">
+    <div class="chart-header">
+      <div>
+        <h2>Periódicos com mais artigos</h2>
+        <p>Ranking dos periódicos no período selecionado.</p>
+      </div>
+      <button class="exportPng" data-target="chartJournals">Exportar PNG</button>
+    </div>
+    <canvas id="chartJournals" width="1200" height="620"></canvas>
+  </section>
+
+  <section class="card">
+    <div class="chart-header">
+      <div>
+        <h2>Resumo do período</h2>
+        <p>Dados usados nos gráficos.</p>
+      </div>
+      <button id="exportCsv">Exportar CSV do período</button>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Ano</th><th>Título</th><th>Periódico</th><th>ISSN</th><th>DOI</th><th>Classificação</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+      </table>
+    </div>
+  </section>
+</main>
+
+<script src="data.js"></script>
+<script src="dashboard.js"></script>
+</body>
+</html>

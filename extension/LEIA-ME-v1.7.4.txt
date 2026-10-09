@@ -1,0 +1,11 @@
+CAPES-Lattes v1.7.4 — PAINEL RESTAURADO
+
+Correção principal:
+- foram restauradas as funções internas responsáveis pelo cartão no cabeçalho e pelo painel de gráficos;
+- o cartão aparece imediatamente como “Analisando o currículo...”;
+- se o cabeçalho do Lattes não for reconhecido, o cartão aparece como botão flutuante no canto superior direito, portanto não desaparece;
+- depois da análise mostra classificados/total e pontuação;
+- “Ver gráficos” abre o painel sobre o próprio CV.
+
+Pontuação:
+MB=8, B=4, R=2, F=1, NC=0.

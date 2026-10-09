@@ -1,0 +1,9 @@
+CAPES-Lattes v1.6.0 UNIVERSAL
+
+- Abra qualquer Currículo Lattes.
+- A extensão identifica os artigos a partir de 2022.
+- Classifica por periódico usando primeiro a base local e, quando necessário, consulta o Periódicos-ADM.
+- Não depende do currículo da professora Fátima.
+- Não usa Terminal nem servidor local.
+- O painel de gráficos passa a usar o CV atualmente analisado.
+- NC indica ausência de evidência suficiente na base/consulta para MB, B, R ou F.

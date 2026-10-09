@@ -1,0 +1,8 @@
+CAPES-Lattes v1.7.1 UNIVERSAL — PAINEL NO PRÓPRIO CV
+
+O plug aparece no cabeçalho do Currículo Lattes, próximo à foto/identificação.
+O cartão mostra classificados/artigos e pontuação total.
+Ao clicar em “Ver gráficos”, abre um painel sobre o próprio Lattes.
+
+Painel: período inicial/final, artigos, pontos, MB/B/R/NC, artigos por ano, classificação e pontuação por ano.
+Pontuação: MB=8; B=4; R=2; F=1; NC=0.

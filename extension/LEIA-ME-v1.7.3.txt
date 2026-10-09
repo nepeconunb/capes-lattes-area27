@@ -1,0 +1,12 @@
+CAPES-Lattes v1.7.3 HOTFIX
+
+Base: v1.7.1, que já mostrava corretamente o cartão no cabeçalho do Currículo Lattes.
+
+Correções:
+- mantém o cartão CAPES-Lattes visível ao lado da identificação/foto;
+- mantém o botão Ver gráficos no próprio CV;
+- corrige a identificação do nome do pesquisador no painel;
+- evita as alterações estruturais da v1.7.2 que fizeram o cartão desaparecer.
+
+Pontuação:
+MB=8, B=4, R=2, F=1, NC=0.

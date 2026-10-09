@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CAPES-Lattes 3.8.1 — Sobre e metodologia</title>
+<style>
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;background:#f4f7fb;color:#1f2d3d}
+header{background:#173f67;color:white;padding:26px 32px}
+header h1{margin:0 0 6px;font-size:28px}
+main{max-width:980px;margin:24px auto;padding:0 18px 44px}
+.card{background:white;border:1px solid #dbe4ec;border-radius:14px;padding:22px;margin-bottom:16px}
+h2{color:#173f67;margin-top:0}
+code{background:#eef3f7;padding:2px 5px;border-radius:5px}
+table{width:100%;border-collapse:collapse}
+th,td{padding:9px;border-bottom:1px solid #e6edf3;text-align:left}
+.notice{background:#fff7e6;border:1px solid #f0d59b;border-radius:10px;padding:12px;color:#6b4e00}
+</style>
+</head>
+<body>
+<header>
+  <h1>CAPES-Lattes 3.8.1</h1>
+  <div>Sobre, metodologia e privacidade</div>
+</header>
+<main>
+  <div class="card notice">
+    Esta é uma ferramenta independente para apoio à análise acadêmica. Não é produto oficial,
+    serviço ou classificação emitida pela CAPES ou pelo CNPq.
+  </div>
+
+  <div class="card">
+    <h2>O que a extensão faz</h2><p><strong>Escopo temporal:</strong> a versão 2.2 analisa artigos completos publicados em periódicos desde 1990.</p>
+    <p>Ao abrir um Currículo Lattes, a extensão lê exclusivamente a seção
+    <strong>“Artigos completos publicados em periódicos”</strong>, identifica os periódicos,
+    consulta a base local incorporada e, quando necessário, fontes públicas permitidas,
+    exibindo classificação, pontuação, fonte e data.</p>
+    <p>Livros, capítulos de livros, ISBN, coletâneas e outras produções bibliográficas não entram
+    nos totais, gráficos ou pontuação.</p>
+  </div>
+
+  <div class="card">
+    <h2>Sistemas exibidos</h2><p>A versão 2.1 mostra simultaneamente o <strong>Qualis 2017–2020</strong> e a <strong>classificação atual MB/B/R/F/NC</strong>. O Qualis histórico é buscado como informação própria e não é inferido da classificação atual.</p><h2>Pontuação</h2>
+    <table>
+      <tr><th>Faixa</th><th>Pontos</th></tr>
+      <tr><td>MB</td><td>8</td></tr>
+      <tr><td>B</td><td>4</td></tr>
+      <tr><td>R</td><td>2</td></tr>
+      <tr><td>F</td><td>1</td></tr>
+      <tr><td>NC</td><td>0</td></tr>
+    </table>
+    <p><strong>NC</strong> significa que não houve evidência suficiente na base disponível para
+    classificar com segurança em MB/B/R/F.</p>
+  </div>
+
+  <div class="card">
+    <h2>Privacidade</h2>
+    <p>A extensão processa o conteúdo do Currículo Lattes aberto no navegador do usuário.
+    O currículo completo não é enviado a um servidor próprio da extensão.</p>
+    <p>Quando uma consulta externa é necessária, a extensão envia apenas a informação necessária
+    para localizar o periódico, como seu nome. Os dados do último CV analisado ficam armazenados
+    localmente no navegador para permitir a geração dos gráficos.</p>
+  </div>
+
+  <div class="card">
+    <h2>Uso responsável</h2>
+    <p>Os resultados devem ser apresentados com a respectiva regra, fonte e data da consulta.
+    A extensão não substitui verificações institucionais, avaliações oficiais ou atos da CAPES.</p>
+  </div>
+
+  <div class="card">
+    <h2>Pontuação Qualis</h2>
+    <p><strong>2017–2020/2021–2024:</strong> A1=100, A2=80, A3=70, A4=60, B1=50, B2=40, B3=30, B4=10, C=0.</p>
+    <p><strong>2007–2009/2010–2012/2013–2016:</strong> A1=100, A2=80, B1=60, B2=50, B3=30, B4=20, B5=10, C=0.</p>
+    <p>Quando o estrato histórico do ciclo ainda não estiver incorporado à base da extensão, o resultado aparece como ND, sem inferência automática.</p>
+  </div>
+
+  <div class="card">
+    <h2>Áreas de avaliação CAPES</h2>
+    <p>O painel inclui o seletor das áreas de avaliação da CAPES. Nesta versão, a Área 27 —
+    Administração Pública e de Empresas, Ciências Contábeis e Turismo — está implementada.</p>
+    <p>As demais áreas podem ser selecionadas, mas são identificadas como <strong>área ainda não implementada</strong>
+    até que suas regras e bases específicas sejam incorporadas. A extensão não reutiliza a regra da Área 27 em outra área.</p>
+  </div>
+
+  <div class="card">
+    <h2>Qualis 2017–2020 como referência longitudinal</h2>
+    <p>A versão 2.4.2 permite aplicar o Qualis 2017–2020 a todas as publicações do período selecionado,
+    inclusive artigos anteriores a 2017 e posteriores a 2020. O objetivo é permitir uma comparação longitudinal
+    usando uma única referência.</p>
+    <p>Essa leitura é comparativa. Ela não significa que o periódico possuía oficialmente aquele estrato
+    no ano original da publicação, nem que o estrato continuará válido em ciclos futuros.</p>
+  </div>
+
+
+  <div class="card">
+    <h2>Como funciona a troca de área</h2>
+    <p>No Qualis Referência 2017–2020, cada periódico recebeu uma única classificação,
+    válida para todas as áreas. Por isso, ao trocar a área CAPES, o estrato 2017–2020
+    e sua pontuação permanecem visíveis.</p>
+    <p>A seleção de área passa a afetar apenas critérios próprios da área e bases históricas
+    anteriores ao Qualis Referência, quando houver classificação distinta entre áreas.</p>
+  </div>
+
+
+  <div class="card">
+    <h2>Pacote com todas as áreas CAPES</h2>
+    <p>O seletor contém todas as áreas de avaliação cadastradas na extensão.</p>
+    <p>O <strong>Qualis Referência 2017–2020</strong> é preservado para qualquer área selecionada e
+    pode ser aplicado como referência fixa a todo o período do currículo.</p>
+    <p>A classificação atual MB/B/R/F/NC e os ciclos históricos específicos de cada área só são
+    calculados automaticamente quando a regra/base daquela área está incorporada. A extensão não
+    copia indevidamente a regra de uma área para outra.</p>
+  </div>
+
+
+  <div class="card">
+    <h2>Escopo da regra atual MB/B/R/F/NC</h2>
+    <p><strong>A regra atual MB/B/R/F/NC está implementada especificamente para a Área 27 —
+    Administração Pública e de Empresas, Ciências Contábeis e Turismo.</strong></p>
+    <p>Ao selecionar outra área CAPES, a extensão mantém o Qualis Referência 2017–2020 e sua
+    pontuação como referência longitudinal, mas não aplica automaticamente a regra atual da Área 27
+    às demais áreas.</p>
+    <p>Para outras áreas, a classificação atual só deve ser calculada quando houver definição,
+    documentação e base específica incorporadas.</p>
+  </div>
+
+</main>
+</body>
+</html>

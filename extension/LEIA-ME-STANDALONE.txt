@@ -1,0 +1,30 @@
+CAPES-Lattes v1.5.0 STANDALONE
+
+Uso diário:
+1. Abra o Chrome.
+2. Abra o Currículo Lattes.
+3. Os selos são aplicados automaticamente.
+
+Não precisa abrir Terminal, start_mac.command ou 127.0.0.1.
+
+Novidades da versão 1.5.0:
+- painel de gráficos dentro da própria extensão;
+- seleção de período inicial e final;
+- atalhos 2022–2024, 2025–2028, últimos 4 anos e todo o período;
+- gráfico de artigos por ano;
+- gráfico de distribuição MB/B/R/F/NC;
+- evolução anual por classificação;
+- ranking de periódicos com mais artigos;
+- exportação de cada gráfico em PNG;
+- exportação dos dados filtrados em CSV;
+- mantém memória de cálculo, fonte e data das classificações.
+
+Para abrir os gráficos:
+clique no ícone CAPES-Lattes > Abrir gráficos.
+
+
+CORREÇÃO DE RECONHECIMENTO DE TÍTULOS
+- normalização de apóstrofos curvos, aspas, travessões e entidades HTML;
+- comparação por múltiplos prefixos;
+- fallback por sobreposição de palavras para pequenas variações do Lattes.
+Objetivo: eliminar casos como “Brazil’s” versus códigos HTML equivalentes.
