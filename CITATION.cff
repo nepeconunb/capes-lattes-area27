@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Se você utilizar este software, cite-o conforme indicado abaixo."
+title: "CAPES-Lattes — Área 27"
+type: software
+version: 3.9.2
+date-released: 2026-10-09
+
+authors:
+  - family-names: "Freire"
+    given-names: "Fátima de Souza"
+    affiliation: "Universidade de Brasília (UnB)"
+
+repository-code: "https://github.com/nepeconunb/capes-lattes-area27"
+url: "https://github.com/nepeconunb/capes-lattes-area27"
+license: MIT
+
+abstract: >
+  Extensão para Google Chrome destinada à análise da produção científica
+  em currículos da Plataforma Lattes, com foco na Área 27 da CAPES —
+  Administração Pública e de Empresas, Ciências Contábeis e Turismo.
+  A ferramenta apresenta classificação atual MB/B/R/F/NC para publicações
+  a partir de 2022, Qualis Referência 2021–2024, pontuação, filtros e gráficos.
